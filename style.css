@@ -7,3 +7,6 @@ body {
   padding: 0px;
   font-family: "Roboto Slab", serif !important;
 }
+.container{
+    width: 1056px !important;
+}

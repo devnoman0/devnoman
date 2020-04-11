@@ -16,142 +16,404 @@
     <link rel="stylesheet" href="./tailwind.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="bg-gray-200 h-screen">
-    <div class="bg-white w-full h-16 flex items-center shadow-sm">
-      <div class="container mx-auto">
-        <h1>deVnoman</h1>
-      </div>
-    </div>
-    <div class="container mx-auto md:mt-8">
-      <div class="hero relative">
-        <div
-          class="w-full px-2 py-16 bg-white mb-4 rounded shadow-sm flex flex-col items-center justify-start"
-        >
-          <h1
-            class="text-gray-800 text-3xl leading-tight tracking-tight font-black"
-          >
-            Md Abdullah Al Noman
-          </h1>
-          <h1
-            class="mt-3 text-gray-600 text-lg leading-tight tracking-tight font-semibold"
-          >
-            Web And Native Mobile Developer
-          </h1>
-          <div class="flex items-center my-4">
-            <ul class="flex items-center">
-              <li class="mx-2">
-                <img src="./img/facebook.svg" height="30px" width="30px" />
-              </li>
-              <li class="mx-2">
-                <img src="./img/twitter.svg" height="30px" width="30px" />
-              </li>
-              <li class="mx-2">
-                <img src="./img/linkedin.svg" height="30px" width="30px" />
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div
-          class="prifile-image absolute w-full h-32 flex justify-center items-center"
-          style="bottom: -60px; right: 0; left: 0;"
-        >
-          <img
-            src="./img/profile.jpg"
-            class="rounded-full h-32 w-32 border-8 border-white shadow-2xl"
-          />
-        </div>
-      </div>
-      <span class="text-gray-600 text-xl font-bold">Welcome Back</span>
-      <div class="grid grid-cols-6 mt-8 gap-8 overflow-y-hidden">
-        <div class="col-span-2 flex flex-col rounded">
-          <ul
-            class="flex flex-col text-gray-700 bg-white shadow-sm px-4 py-4 rounded"
-          >
-            <a href="#" class="hover:bg-gray-200 py-2 px-2 rounded-lg">
-              <li class="flex items-center flex-start">
-                <i class="material-icons" style="font-size: 24px;">home</i>
-                <span class="font-semibold ml-2 text-base">Home</span>
+  <body class="bg-gray-200">
+    <div class="h-screen overflow-y-hidden flex flex-col">
+      <div
+        class="bg-indigo-800 w-full h-16 flex items-center shadow-sm py-6 overflow-y-hidden"
+      >
+        <div class="container mx-auto flex justify-between items-center">
+          <h1 class="text-3xl text-gray-100">deVnoman</h1>
+          <ul class="flex text-gray-700 shadow-sm px-4 py-4 rounded">
+            <a href="#" class="mx-2">
+              <li class="flex items-center flex-start text-gray-200">
+                <span class="font-semibold ml-2 text-sm">Home</span>
               </li>
             </a>
-            <a href="#" class="hover:bg-gray-200 py-2 px-2 rounded-lg">
-              <li class="flex items-center flex-start">
-                <i class="material-icons" style="font-size: 24px;">apps</i>
-                <span class="font-semibold ml-2 text-base">Native Apps</span>
+            <a href="#" class="mx-2">
+              <li class="flex items-center flex-start text-gray-200">
+                <span class="font-semibold ml-2 text-sm">Native Apps</span>
               </li>
             </a>
-            <a href="#" class="hover:bg-gray-200 py-2 px-2 rounded-lg">
-              <li class="flex items-center flex-start">
-                <i class="material-icons" style="font-size: 24px;">web</i>
-                <span class="font-semibold ml-2 text-base">Web Apps</span>
+            <a href="#" class="mx-2">
+              <li class="flex items-center flex-start text-gray-200">
+                <span class="font-semibold ml-2 text-sm">Web Apps</span>
               </li>
             </a>
-            <a href="#" class="hover:bg-gray-200 py-2 px-2 rounded-lg">
-              <li class="flex items-center flex-start">
-                <i class="material-icons" style="font-size: 24px;"
-                  >insert_photo
-                </i>
-                <span class="font-semibold ml-2 text-base">Photo Gallery</span>
+            <a href="#" class="mx-2">
+              <li class="flex items-center flex-start text-gray-200">
+                <span class="font-semibold ml-2 text-sm">Photo Gallery</span>
               </li>
             </a>
           </ul>
-          <div
-            class="about flex flex-col text-gray-700 bg-white shadow-sm px-4 py-4 mt-4 rounded"
-          >
-            <div class="flex justify-between items-center">
-              <span class="text-gray-800 font-semibold text-lg">About Me</span>
+        </div>
+      </div>
+      <div class="overflow-y-auto ">
+        <div class="container mx-auto mt-8">
+          <div class="grid grid-cols-2 shadow-2xl rounded-lg">
+            <div class="rounded-l-lg">
+              <img
+                src="./img/personal1.jpg"
+                alt=""
+                class="rounded-tl-lg rounded-bl-lg"
+                style="height: 400px; object-fit: cover; overflow: hidden;"
+              />
             </div>
+            <div class="bg-white rounded-r-lg px-4 py-2">
+              <div
+                class="w-full flex flex-col items-center justify-center h-full"
+              >
+                <h1
+                  class="text-gray-800 text-3xl leading-tight tracking-tight font-black"
+                >
+                  Md Abdullah Al Noman
+                </h1>
+                <h1
+                  class="mt-3 text-gray-600 text-lg leading-tight tracking-tight font-semibold"
+                >
+                  Web And Native Mobile Developer
+                </h1>
+                <div class="flex items-center my-4">
+                  <ul class="flex items-center">
+                    <li class="mx-2">
+                      <img
+                        src="./img/facebook.svg"
+                        height="30px"
+                        width="30px"
+                      />
+                    </li>
+                    <li class="mx-2">
+                      <img src="./img/twitter.svg" height="30px" width="30px" />
+                    </li>
+                    <li class="mx-2">
+                      <img
+                        src="./img/linkedin.svg"
+                        height="30px"
+                        width="30px"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
-            <span class="text-sm">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              in, ipsam esse placeat corporis sit culpa amet nam nesciunt nihil
-              vitae eos aliquid. Doloremque aut, hic expedita adipisci
-              consequatur facere.
-            </span>
+          <div class="mt-16 flex flex-col">
+            <span
+              class="text-gray-700 text-xl border-b-4 border-indigo-700 w-16"
+              >Skills</span
+            >
+            <div class="grid grid-cols-5 gap-8 mt-4 mb-16">
+              <div
+                class="bg-white shadow-2xl px-2 py-2 flex flex-col justify-center items-center rounded"
+              >
+                <img src="./img/reacticon.svg" alt="" height="60px" width="60px" class="mb-2">
+                <span class="text-2xl font-black text-gray-800">React</span>
+                <span class="text-sm text-gray-600 text-center">
+                  * * *
+                </span>
+              </div>
+              <div
+                class="bg-white shadow-2xl px-2 py-2 flex flex-col justify-center items-center rounded"
+              >
+              <img src="./img/react-native.svg" alt="" height="60px" width="60px" class="mb-2">
+              <span class="text-2xl font-black text-gray-800">React Native</span>
+              <span class="text-sm text-gray-600 text-center">
+                * * *
+              </span>
+              </div>
+              <div
+                class="bg-white shadow-2xl px-2 py-2 flex flex-col justify-center items-center rounded"
+              >
+                <img src="./img/nodejs.svg" alt="" height="60px" width="60px" class="mb-2">
+                <span class="text-2xl font-black text-gray-800">Node Js</span>
+                <span class="text-sm text-gray-600 text-center">
+                  * * *
+                </span>
+              </div>
+              <div
+                class="bg-white shadow-2xl px-2 py-2 flex flex-col justify-center items-center rounded"
+              >
+                <img src="./img/php.svg" alt="" height="60px" width="60px" class="mb-2">
+                <span class="text-2xl font-black text-gray-800">PHP</span>
+                <span class="text-sm text-gray-600 text-center">
+                  * * *
+                </span>
+              </div>
+              <div
+                class="bg-white hover:bg-indigo-800 hover:text-gray-100 text-gray-800 cursor-pointer shadow-2xl px-2 py-2 flex flex-col justify-center items-center rounded"
+              >   
+
+                <img src="./img/plus.svg" alt="" height="60px" width="60px" class="mb-2 ">
+             
+                <span class="text-2xl font-black  ">Show More</span>
+                <span class="text-sm text-gray-600 text-center">
+                  * * *
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 shadow-2xl rounded-lg">
+           
+            <div class="bg-white rounded-l-lg px-4 py-2">
+              <div
+                class="w-full flex flex-col items-center justify-center h-full"
+              >
+                <span class="font-black text-3xl">
+                  I am not a perfectionist
+                </span>
+                <h1
+                  class="mt-2 text-gray-600 text-sm leading-tight tracking-tight font-semibold text-center"
+                >
+                  I'm trying hard to make my client happy . Yes i do wrong i do
+                  debug and much more. But i can do .
+                </h1>
+              <span class="text-white font-semibold px-4 py-2 text-sm bg-indigo-800 mt-6 rounded shadow-2xl">
+              Contact Me
+              </span>
+
+                <!-- <span class="border-t-4 border-indigo-700 w-32 mt-4"></span> -->
+              </div>
+            </div>
+            <div class="rounded-r-lg">
+              <img src="./img/demo.jpg" alt="" class="rounded-tr-lg rounded-br-lg"
+                style="height: 400px; object-fit: cover; overflow: hidden;" width="100%"/>
+            </div>
+          </div>
+  
+
+        <div class="mt-16 flex flex-col">
+          <span class="text-gray-700 text-xl border-b-4 border-indigo-700 w-24"
+            >Projects</span
+          >
+          <div class="grid grid-cols-4 gap-8 mt-4 mb-16">
+            <div
+              class="bg-white shadow-2xl flex flex-col justify-center items-center rounded"
+            >
+              <div class="h-32 w-full bg-gray-900">
+                <img
+                  src="./img/react.png"
+                  alt=""
+                  style="height: 100%;"
+                  class="rounded-tl rounded-tr"
+                />
+              </div>
+              <div class="px-2 py-2 flex flex-col">
+                <span class="text-lg font-black text-gray-800"
+                  >React Chat App</span
+                >
+                <span
+                  class="text-sm text-gray-600 leading-tight tracking-tight mt-2"
+                >
+                  Lorem ipsum dolor sit amet consectetur
+                </span>
+                <div
+                  class="flex justify-between items-center mt-4 border-l-4 border-indigo-700 pl-2"
+                >
+                  <span class="text-sm font-semibold text-indigo-700"
+                    >React</span
+                  >
+                  <span class="text-sm font-semibold text-indigo-700"
+                    >More</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-white shadow-2xl flex flex-col justify-center items-center rounded"
+            >
+              <div class="h-32 w-full bg-gray-900">
+                <img
+                  src="./img/react1..jpg"
+                  alt=""
+                  style="height: 100%;"
+                  class="rounded-tl rounded-tr"
+                />
+              </div>
+              <div class="px-2 py-2 flex flex-col">
+                <span class="text-lg font-black text-gray-800"
+                  >React Chat App</span
+                >
+                <span
+                  class="text-sm text-gray-600 leading-tight tracking-tight mt-2"
+                >
+                  Lorem ipsum dolor sit amet consectetur
+                </span>
+                <div
+                  class="flex justify-between items-center mt-4 border-l-4 border-indigo-700 pl-2"
+                >
+                  <span class="text-sm font-semibold text-indigo-700"
+                    >React</span
+                  >
+                  <span class="text-sm font-semibold text-indigo-700"
+                    >More</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-white shadow-2xl flex flex-col justify-center items-center rounded"
+            >
+              <div class="h-32 w-full bg-gray-900">
+                <img
+                  src="./img/react.png"
+                  alt=""
+                  style="height: 100%;"
+                  class="rounded-tl rounded-tr"
+                />
+              </div>
+              <div class="px-2 py-2 flex flex-col">
+                <span class="text-lg font-black text-gray-800"
+                  >React Chat App</span
+                >
+                <span
+                  class="text-sm text-gray-600 leading-tight tracking-tight mt-2"
+                >
+                  Lorem ipsum dolor sit amet consectetur
+                </span>
+                <div
+                  class="flex justify-between items-center mt-4 border-l-4 border-indigo-700 pl-2"
+                >
+                  <span class="text-sm font-semibold text-indigo-700"
+                    >React</span
+                  >
+                  <span class="text-sm font-semibold text-indigo-700"
+                    >More</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-white shadow-2xl flex flex-col justify-center items-center rounded"
+            >
+              <div class="h-32 w-full bg-gray-900">
+                <img
+                  src="./img/react1..jpg"
+                  alt=""
+                  style="height: 100%;"
+                  class="rounded-tl rounded-tr"
+                />
+              </div>
+              <div class="px-2 py-2 flex flex-col">
+                <span class="text-lg font-black text-gray-800"
+                  >React Chat App</span
+                >
+                <span
+                  class="text-sm text-gray-600 leading-tight tracking-tight mt-2"
+                >
+                  Lorem ipsum dolor sit amet consectetur
+                </span>
+                <div
+                  class="flex justify-between items-center mt-4 border-l-4 border-indigo-700 pl-2"
+                >
+                  <span class="text-sm font-semibold text-indigo-700"
+                    >React</span
+                  >
+                  <span class="text-sm font-semibold text-indigo-700"
+                    >More</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="bg-white shadow-2xl flex flex-col justify-center items-center rounded">
+              <div class="h-32 w-full bg-gray-900 rounded-t">
+                <!-- <img src="./img/react1..jpg" alt="" style="height: 100%;" class="rounded-tl rounded-tr" /> -->
+              </div>
+              <div class="px-2 py-2 flex flex-col">
+                <span class="text-lg font-black text-gray-800">React Chat App</span>
+                <span class="text-sm text-gray-600 leading-tight tracking-tight mt-2">
+                  Lorem ipsum dolor sit amet consectetur
+                </span>
+                <div class="flex justify-between items-center mt-4 border-l-4 border-indigo-700 pl-2">
+                  <span class="text-sm font-semibold text-indigo-700">React</span>
+                  <span class="text-sm font-semibold text-indigo-700">More</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-span-4 bg-white shadow-sm rounded px-4 py-3">
-          <div class="flex justify-between items-center">
-            <span class="text-gray-600 text-lg font-bold">My works view</span>
-            <i class="material-icons" style="font-size: 27px; color: #718096;"
-              >filter_list
-            </i>
-          </div>
+      </div>
 
-          <div class="w-full flex-col py-6 border-b border-gray-300">
-            <div
-              class="mb-2 w-full bg-gray-900 flex items-center justify-center"
-            >
-              <img src="./img/react.png" alt="" />
+      <div class="bg-gray-900  w-full py-8">
+        <div class="container mx-auto">
+          <div class="grid grid-cols-3 gap-8">
+            
+            <div class="">
+              <ul class="flex flex-col text-gray-300  px-4 py-4 ">
+                <a href="#" class=" py-2 px-2 rounded-lg">
+                  <li class="flex items-center flex-start">
+                    <i class="material-icons" style="font-size: 24px;">home</i>
+                    <span class="font-semibold ml-2 text-base">Home</span>
+                  </li>
+                </a>
+                <a href="#" class=" py-2 px-2 rounded-lg">
+                  <li class="flex items-center flex-start">
+                    <i class="material-icons" style="font-size: 24px;">apps</i>
+                    <span class="font-semibold ml-2 text-base">Native Apps</span>
+                  </li>
+                </a>
+                <a href="#" class=" py-2 px-2 rounded-lg">
+                  <li class="flex items-center flex-start">
+                    <i class="material-icons" style="font-size: 24px;">web</i>
+                    <span class="font-semibold ml-2 text-base">Web Apps</span>
+                  </li>
+                </a>
+                <a href="#" class=" py-2 px-2 rounded-lg">
+                  <li class="flex items-center flex-start">
+                    <i class="material-icons" style="font-size: 24px;">insert_photo
+                    </i>
+                    <span class="font-semibold ml-2 text-base">Photo Gallery</span>
+                  </li>
+                </a>
+              </ul>
             </div>
-
-            <p class="text-sm text-gray-700 text-semibold">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
-              nobis doloremque repellat eveniet. Nesciunt quis, sapiente eius,
-              vel dolorem nihil voluptates cumque et quasi harum corrupti
-              laborum libero, excepturi ut!
-            </p>
-          </div>
-
-          <div class="w-full flex-col py-6 border-b border-gray-300">
-            <div
-              class="mb-2 w-full bg-gray-900 flex items-center justify-center"
-            >
-              <img src="./img/react1..jpg" alt="" />
+            <div >
+              <ul class="flex flex-col text-gray-300  px-4 py-4 ">
+                <a href="#" class=" py-2 px-2 rounded-lg">
+                  <li class="flex items-center flex-start">
+                  
+                    <span class="font-semibold ml-2 text-sm">About Me</span>
+                  </li>
+                </a>
+                <a href="#" class=" py-2 px-2 rounded-lg">
+                  <li class="flex items-center flex-start">
+                    
+                    <span class="font-semibold ml-2 text-sm">Contact Me</span>
+                  </li>
+                </a>
+                <a href="#" class=" py-2 px-2 rounded-lg">
+                  <li class="flex items-center flex-start">
+                    
+                    <span class="font-semibold ml-2 text-sm">Privecy Policy</span>
+                  </li>
+                </a>
+                <a href="#" class=" py-2 px-2 rounded-lg">
+                  <li class="flex items-center flex-start">
+                    
+                    <span class="font-semibold ml-2 text-sm">Works Policy</span>
+                  </li>
+                </a>
+              </ul>
             </div>
-
-            <p class="text-sm text-gray-700 text-semibold">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
-              nobis doloremque repellat eveniet. Nesciunt quis, sapiente eius,
-              vel dolorem nihil voluptates cumque et quasi harum corrupti
-              laborum libero, excepturi ut!
-            </p>
+            <div class="px-2 py-2 flex flex-col justify-center">
+              <span class="font-semibold mb-3 text-sm text-gray-200">
+                Lorem ipsum, dolor sit amet 
+                consectetur adipisicing elit. 
+                Dolores dignissimos natus 
+              </span>
+              <span class="font-semibold mb-2 text-sm text-gray-200">
+                Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit.
+                Dolores dignissimos natus
+              </span>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       var Tawk_API = Tawk_API || {},
         Tawk_LoadStart = new Date();
       (function () {
@@ -163,7 +425,7 @@
         s1.setAttribute("crossorigin", "*");
         s0.parentNode.insertBefore(s1, s0);
       })();
-    </script>
+    </script> -->
     <!--End of Tawk.to Script-->
   </body>
 </html>
